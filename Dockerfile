@@ -20,4 +20,4 @@ RUN chmod +x /start.sh
 COPY . /code/
 
 # Start the FastAPI app
-CMD ["./start.sh"]
+CMD ["chmod", "+x", "/start.sh"]
